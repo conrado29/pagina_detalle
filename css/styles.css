@@ -1,0 +1,110 @@
+ .centro{
+   justify-content: space-between;
+  padding-right: 5px;
+  padding-left: 5px;
+  }
+  .espacio{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    
+  }
+  .cart{
+    
+    margin: 2vh;
+  }
+  footer{
+    background: rgb(116, 32, 133);
+    margin-bottom: 0px;
+    margin: 10px 10px 0 10px;
+    margin-top: 20px;
+    color: black;
+  }
+  .es{
+    margin-top: 75px;
+  }
+  .carts{
+    flex: 1 150px;
+    padding: 2px 5px 2px 5px;
+  }
+
+    
+    .btn-reserva {
+      margin-top: 55vh;
+      justify-content: center;
+      border-radius: 4px;
+  }
+  .bg-primary{
+    transition: all ls ease;
+  }
+  .icon-espacio{
+    padding-right: 5px;
+  }
+  h6{
+    margin-bottom: 0px;
+  }
+  .card-body{
+    padding: 1rem
+  }
+  .alinear{
+    text-align: center;
+  }
+  .miModal
+  {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .containert{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .imges{
+  min-height: 80vh;
+  }
+
+
+
+
+.slide1 {
+  background-size: cover;
+  background: linear-gradient(#666, transparent 90%),
+              linear-gradient(0deg, #222, transparent),
+              #fff url('../img/imagen0112.png') no-repeat center;
+}
+
+.slide2 {
+  background-size: cover;
+  background: linear-gradient(#666, transparent 90%),
+              linear-gradient(0deg, #222, transparent),
+              #fff url('../img/comida2.jpg') no-repeat center;
+}
+
+
+.slide3 {
+  background-size: cover;
+  background: linear-gradient(#666, transparent 90%),
+              linear-gradient(0deg, #222, transparent),
+              #fff url('../img/imagen011.png') no-repeat center;
+}
+
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.card-columns {
+
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}

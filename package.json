@@ -14,7 +14,6 @@
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin historia.html -d dist --htmlmin -o dist/historia.html && usemin secciones.html -d dist --htmlmin -o dist/secciones.html && usemin administrar.html -d dist --htmlmin -o dist/administrar.html",
     "build": "npm run clean & npm run scss && npm run imagemin && npm run usemin"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://conrado1996@bitbucket.org/conrado1996/pagina_prueba.git"
